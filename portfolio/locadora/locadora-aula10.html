@@ -1,0 +1,418 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Locadora 2000</title>
+
+		<!-- arquivo CSS próprio-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!--Bootstrap-->
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+	crossorigin="anonymous"> 
+
+
+		<!-- Java Script-->
+	<script type="text/javascript" src="javascript.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
+	integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
+	crossorigin="anonymous"></script> 
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 
+	integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" 
+	crossorigin="anonymous"></script>  
+	</head>
+
+	<body>
+
+	 <!-- Menu Navbar-->
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<!-- imagem e título-->
+			<img style="width:3%"src="img/claquete.png">
+			<a class="navbar-brand" href="#topo">Locadora 2000</a>
+		</div>
+		<!-- Div com itens clicáveis-->
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+			<li class="nav-item">
+			<a class="nav-link active" data-bs-toggle="dropdown"href="#tabFilmes">Filmes Disponíveis</a>
+		</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#drop"id="dropGeneros" role="button" data-bs-toggle="dropdown"
+				href="#drop"> Filmes por Categoria</a>
+
+				<ul class="dropdown-menu" aria-labelledby= "navbarDropdownMenuLink">
+					<li> <a class="dropdown-item" href="#gAcão"> Ação   	</a> </li>
+					<li> <a class="dropdown-item" href="#gAnimação"> Animação	</a> </li> 
+					<li> <a class="dropdown-item" href="#gRomance"> Romance	</a> </li>
+					<li> <a class="dropdown-item"  href="#gsuspense"> Suspense </a> </li>
+					<li> <a class="dropdown-item"  href="#gsuspense"> Drama </a> </li>
+					<li> <a class="dropdown-item"  href="#gsuspense"> Comédia </a> </li>
+
+				</ul>
+			</li>	
+		</ul>
+		<li class="nav-item">
+		<a class="nav-link" href="#cadFilmes"> Cadastrar Filme</a>
+
+		</li>
+	</ul>
+	</div>
+	</div>
+	</nav>
+		 <!-- Título Locadora-->
+	<h1 class="display-1 text-center mb-7">Locadora 2000</h1>
+
+		<!-- Tabela filmes disponíveis-->
+	<div class="container">
+		<table class="table table-stripped table-hover">
+			<!-- Linha expandida com título das colunas -->
+		<thead>
+			<tr>
+
+				<th scope="col">Código</th>
+				<th scope="col">Título</th>
+				<th scope="col">Diretor</th>
+				<th scope="col">Lançamento</th>
+				<th scope="col">Gênero</th>
+				<th scope="col">Atriz/Ator</th>
+				<th scope="col">Nota IMDb</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- linha expandida com gênero do filme -->
+			<tr>
+				<th class="text-center table-primary" colspan="7"id=#gAcao>Ação</th>
+			</tr>
+				<!--primeiro filme-->
+			<tr>
+			<th scope="row">1</th>
+			<td>Logan</td>
+			<td>James Mangold</td>
+			<td>17 de fevereiro de 2017</td>
+			<td>Ação</td>
+			<td> Hugh Jackman</td>
+			<td> 8,1/10</td>
+			</tr>
+
+
+			<tr>
+			<th scope="row">2</th>
+			<td>Kingsman: Serviços Secretos</td>
+			<td>Matthew Vaughn</td>
+			<td>13 de dezembro de 2014</td>
+			<td>Ação</td>
+			<td> Taron Egerton</td>
+			<td>7,7/10</td>
+			</tr>
+			
+
+			<tr>
+			<th scope="row">3</th>
+			<td>John Wick</td>
+			<td>Chad Stahelski</td>
+			<td>24 de outubro de 2014</td>
+			<td>Ação</td>
+			<td> Keanu Reeves</td>
+			<td>7,4/10</td>
+			</tr>
+			<tr id="InserirAcao"></tr>
+		<tr>
+				<th class="text-center table-primary" colspan="7" id=#gAnimacao>Animação</th>
+			</tr>		
+
+	<tr>
+			<th scope="row">1</th>
+			<td>Ghost in the Shell: Cidade Assombrada</td>
+			<td>Major Motoko Kusanagi</td>
+			<td>18 de novembro de 1995</td>
+			<td>Animação</td>
+			<td> Keanu Reeves</td>
+			<td>7,9/10</td>
+			</tr>
+
+		<tr>
+
+	<tr>
+			<th scope="row">2</th>
+			<td>Dragon Ball Z: A Batalha dos Deuses</td>
+			<td>Masahiro Hosoda</td>
+			<td>11 de outubro 2013</td>
+			<td>Animação</td>
+			<td> Goku </td>
+			<td>7,1/10</td>
+			</tr>
+
+
+			<tr>
+			<th scope="row">3</th>
+			<td>Madagascar</td>
+			<td>Eric Darnell, Tom McGrath</td>
+			<td>27 de maio de 2005</td>
+			<td>Animação</td>
+			<td> Alex, Marty</td>
+			<td>6,9/10</td>
+			</tr>
+				<tr id="InserirAnimacao"></tr>
+			<tr>
+				<th class="text-center table-primary" colspan="7" id=#gRomance >Romance</th>
+			</tr>
+			<tr>
+			<th scope="row">1</th>
+			<td> O Diário da Nossa Paixão</td>
+			<td> Nick Cassavetes</td>
+			<td> 20 de maio de 2004</td>
+			<td> Romance</td>
+			<td> Gena Rowlands</td>
+			<td> 7,8/10</td>
+			</tr>
+				
+			<tr>
+			<th scope="row">2</th>
+			<td> P.S., I Love You </td>
+			<td> Richard LaGravenese</td>
+			<td> 14 de Fevereiro de 2008 </td>
+			<td> Romance</td>
+			<td> Hilary Swank</td>
+			<td> 7/10</td>
+			</tr>
+					
+	     <tr>
+			<th scope="row">3</th>
+			<td> Mamma Mia! </td>
+			<td> Phyllida Lloyd</td>
+			<td>  4 de Setembro de 2008 </td>
+			<td> Romance</td>
+			<td> Meryl Streep</td>
+			<td> 6,5/10</td>
+			</tr>
+				<tr id="InserirRomance"></tr>
+			<tr>
+				<th class="text-center table-primary" colspan="7" id=#gSuspense>Suspense</th>
+			</tr>
+
+			 <tr>
+			<th scope="row">1</th>
+			<td>  00:30 A Hora Negra</td>
+			<td> Kathryn Bigelow</td>
+			<td> 19 de dezembro de 2012 </td>
+			<td> Suspense</td>
+			<td> Jessica Chastain</td>
+			<td> 7,4/10</td>
+			</tr>
+
+
+	<tr>
+			<th scope="row">2</th>
+			<td> Cisne negro</td>
+			<td> Darren Aronofsky</td>
+			<td> 4 de fevereiro de 2011 </td>
+			<td> Suspense</td>
+			<td> Natalie Portman </td>
+			<td> 8/10</td>
+			</tr>
+
+			<tr>
+			<th scope="row">3</th>
+			<td> Assalto ao Metrô 123 </td>
+			<td> Tony Scott</td>
+			<td> 4 de Setembro de 2009 </td>
+			<td> Suspense</td>
+			<td>  Denzel Washington </td>
+			<td> 6,4/10 </td>
+			</tr>
+					<tr id="InserirSuspense"></tr>
+			<tr>
+				<th class="text-center table-primary" colspan="7" id=#gDrama >Drama</th>
+			</tr>
+			<tr>
+			<th scope="row">1</th>
+			<td> Um Sonho de Liberdade</td>
+			<td> Frank Darabont</td>
+			<td> 17 de março de 1995</td>
+			<td> Drama</td>
+			<td> Morgan Freeman</td>
+			<td> 9,3/10</td>
+			</tr>
+				
+			<tr>
+			<th scope="row">2</th>
+			<td>A Lista de Schindler </td>
+			<td> Steven Spielberg</td>
+			<td> 31 de dezembro de 1993</td>
+			<td> Drama</td>
+			<td> Liam Neeson</td>
+			<td> 9,0/10</td>
+			</tr>
+					
+	     <tr>
+			<th scope="row">3</th>
+			<td> Ossos e Tudo </td>
+			<td>  Luca Guadagnino</td>
+			<td>  1 de dezembro de 2022 </td>
+			<td> Drama</td>
+			<td> Taylor Russell </td>
+			<td> 7/10</td>
+			</tr>
+				<tr id="InserirDrama"></tr>
+
+	<th class="text-center table-primary" colspan="7" id=#gComédia >Comédia</th>
+			</tr>
+			<tr>
+			<th scope="row">1</th>
+			<td> Pulp Fiction: Tempo de Violência</td>
+			<td> Quentin Tarantino</td>
+			<td> 18 de fevereiro de 1995</td>
+			<td> Comédia</td>
+			<td> John Travolta</td>
+			<td> 8,9/10</td>
+			</tr>
+				
+			<tr>
+			<th scope="row">2</th>
+			<td>Apertem os Cintos, o Piloto Sumiu </td>
+			<td> Jim Abrahams, David Zucker, Jerry Zucker</td>
+			<td> 26 de dezembro de 1980</td>
+			<td> Comédia</td>
+			<td> Robert Hays</td>
+			<td> 7,7/10</td>
+			</tr>
+					
+	     <tr>
+			<th scope="row">3</th>
+			<td> Os Caça-Fantasmas</td>
+			<td>  Ivan Reitman</td>
+			<td>  20 de dezembro de 1
+			984 </td>
+			<td> Comédia</td>
+			<td> Bill Murray </td>
+			<td> 7,8/10</td>
+			</tr>
+			<tr id="InserirComedia"></tr>
+			<!-- 19 filme adicionado-->
+			<tr>
+			<th class="text-center table-primary" colspan="7" id="#gAdd">Adicionados Recentemente</th>
+			</tr>
+
+			<tr id= "inserirTabela">
+				
+			</tr>
+		</tbody>
+	</table>
+	<!-- final da tabela-->
+	</div>
+	<!-- Divisor de página-->
+	<div class="m-5">
+		<hr class="border-primary border-3 opacity-75">
+	</div>
+
+	<h2 class=" display-1 text-center mb-5">Cadastro de Filmes</h2>
+
+	<div class="container mb-5">
+
+
+	<form name="cadastrar" onsubmit="event.preventDefault()">
+		<!-- Linha do código e data lançamento -->
+		 <div class="row">
+			<!-- código -->
+			<div class="mb-3 col">
+				<label for="codFilme" class="form-label">Código:</label>
+				<input type="text" id="codFilme" class="form-control" placeholder="00" name="codigo" required>
+			</div>
+	  		<!--data de lançamento -->
+		 <div class="mb-3 col">
+		 	<label for="anoFilme" class="form-label">Ano:</label>
+				<input type="date" id="anoFilme" class="form-control" name="data"required>
+		 </div>
+
+		 </div>
+
+		 <!-- Linha do título e diretor-->
+		 <div class="row">
+	<!-- Título -->
+			<div class="mb-3 col">
+				<label for="titFilme" class="form-label">Título:</label>
+				<input type="text" id="titFilme" class="form-control" placeholder="00" name="titulo" required>
+			</div>
+	  		<!--Diretor -->
+		 <div class="mb-3 col">
+		 	<label for="dirFilme" class="form-label">Diretor:</label>
+				<input type="text" id="dirFilme" class="form-control" name="diretor" required>
+		 </div>
+
+	</div>
+
+	  		<!--Ator/Atriz e nota IMDb-->
+	  		<div class="row">
+
+	  		<!-- ator/atriz-->
+		 <div class="mb-3 col">
+		 	<label for="atoFilme" class="form-label">Ator/Atriz:</label><br>
+				<input type="text" id="atrFilme" class="form-control" name="ator" required>
+		 </div>
+
+		 <!--nota IMDb-->
+		 
+		 <div class="mb-3 col">
+		 	<label for="notFilme" class="form-label">Nota IMDb:</label><br>
+				<input type="number" id="notFilme" class="form-control" name="nota" required>
+		 </div>
+
+		 	
+		 </div>
+		 <!-- Linha Gêneros -->
+
+		<div class="row">
+		 	<div class="mb-3 col form-check">
+
+		 		<input type="radio" name="radio" id="radGenAcao" class="form-check-input" value="ação" required>
+		 		<label for="radGenAcao" class="form-label">Ação</label>
+		 	</div>
+		 		<div class="mb-3 col form-check">	
+		 		<input type="radio" name="radio" id="radGenAnim" class="form-check-input" value="Animação" required>
+		 		<label for=radGenAnim class="form-label">
+		 		</label>Animação </div>
+		 		<div class="mb-3 col form-check">
+
+				<input type="radio" name="radio" id="radGenRom" class="form-check-input" value="romance" required>
+
+		 		<label for="radGenRom" class="form-label">Romance</label></div>
+		 			
+		 			<div class="mb-3 col form-check">
+		 			
+		 			<input type="radio" name="radio" id="radGenSus" class="form-check-input" value="suspense" required>
+		 		<label for="radGenASus" class="form-label">Suspense</label>
+		 		</div>
+
+		 		<div class="mb-3 col form-check">
+		 			<input type="radio" name="radio" id="radGenCom" class="form-check-input" value="comédia" required>
+		 		<label for=radGenCom class="form-label">Comédia</label>
+		 		</div>
+		 			
+		 		<div class="mb-3 col form-check">
+		 			<input type="radio" name="radio" id="radGenDra" class="form-check-input" value="Drama" required>
+		 		<label for=radGenDra class="form-label">Drama</label>
+		 		</div>
+
+		 		</div>
+
+		 	</div>
+		 </div>
+		 <!-- Botão Enviar -->
+		 <div class="col-auto">
+			<button type="submit" class="btn btn-primary mb-3" onclick="insere()">Cadastrar</button>
+		 </div>
+
+
+
+	</form>
+			<!-- fim do form-->
+
+		</div>
+	</body>
+	</html>
