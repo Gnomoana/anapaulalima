@@ -6,7 +6,7 @@
 <hr>
 
 ## Bootstrap
-<p align="justify"> A grande vantagem dessa framework é a praticidade. Os desenvolvedores podem construir sites de forma mais rápida pois não têm que se preocupar com comandos básicos. É uma boa pedida para criar pontes de relacionamento entre desenvolvedores, além de poderem discutir sobre a framework.  </p>
+<p align="justify"> A grande vantagem dessa framework é a praticidade. Os desenvolvedores tem menos o que se preocupar em termos de código. É uma boa pedida para criar pontes de relacionamento entre desenvolvedores, e outra vantagem é poder discutir sobre a framework.  </p>
 <p float="left" align= "center">
 <img height="250" src="prints/bootstrap.png"></p>
 
@@ -16,7 +16,7 @@
 
  ## Glasmorphism
 
- <p align="justify"> Esse efeito minimalista de objetos translúcidos é elegante e tem seu destaque por ser esteticamente muito agradável. É interessante explorar o efeito, pois fará com que o site se torne mais atraente para os usuários. </p> 
+ <p align="justify"> O efeito glassmorfismo é elegante,  bonito e revela uma paz a quem vê. Explorar o efeito torna o site atraente para cada usuário que tem acesso a esse efeito. </p> 
  <p float="left" align= "center">
  	<img height="250" src="prints/glass.png"> 
  <img height="250" src="prints/portfolio.png"></p>
