@@ -8,7 +8,7 @@
 ## Bootstrap
 <p align="justify"> tettttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttexto. </p>
 <p float="left" align= "center">
-<img height="250" src="anapaulalima/prints/bootstrap.png"></p>
+<img height="250" src="prints/bootstrap.png"></p>
 
  <br><br>
 
@@ -18,8 +18,8 @@
 
  <p align="justify"> tettttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttexto.</p> 
  <p float="left" align= "center">
- 	<img height="250" src="anapaulalima/prints/glass.png"> 
- <img height="250" src="anapaulalima/prints/portfolio.png"></p>
+ 	<img height="250" src="prints/glass.png"> 
+ <img height="250" src="prints/portfolio.png"></p>
  	
 
 
